@@ -33,7 +33,7 @@ test.describe('User Registration Form', () => {
     }));
 
     // Navigate to the registration page
-    await page.goto('http://localhost:5173/');
+    await page.goto('http://localhost:3000/');
   });
 
   // ======================

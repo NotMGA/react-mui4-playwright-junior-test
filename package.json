@@ -1,0 +1,29 @@
+{
+  "name": "packitoo-assessment",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.12.4",
+    "@material-ui/lab": "4.0.0-alpha.61",
+    "formik": "2.4.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "yup": "0.27.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/yup": "^0.26.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}

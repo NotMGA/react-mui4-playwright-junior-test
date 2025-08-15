@@ -1,6 +1,6 @@
 // src/App.tsx
 import React from 'react';
-import UserForm from './UserForm';
+import UserForm from './components/UserForm';
 import { CssBaseline } from '@material-ui/core';
 
 function App() {

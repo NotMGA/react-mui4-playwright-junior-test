@@ -93,7 +93,7 @@ const UserForm = () => {
           setErrorMessage('');
 
           try {
-            // API call (mocked endpoint)
+            // API call 
             const response = await fetch('/api/users', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
